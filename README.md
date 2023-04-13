@@ -9,6 +9,15 @@ The quantum long-range extended Ising model possesses several striking features 
 ## Code
 Code relies on the [Quantum Information and Computation library (QIClib)](https://titaschanda.github.io/QIClib/). 
 
+### Running the code
+
+1.  Run `src/execute_code_submit0.sh` in a terminal (Linux) so that Armadillo is findable (Note it is possible this script is relevant to a local machine and will need to be upated based on user defined parameters).
+2. Run the file `src/deba_Z_h.cpp`
+
+### Data
+Data output is found at `data/xZ_g_norm_1_n512.dat`
+
+
 ### QIClib
 
 The QIClib library has the following benefits.
@@ -17,6 +26,7 @@ The QIClib library has the following benefits.
 + It supports cross platform usage (Linux, Windows and Mac OS X). 
 + It is a header only template library.
 + It uses Armadillo (developed by Conrad Sanderson et al., Data61, Australia) for highly efficient linear algebra calculations, and if available, the NLopt nonlinear optimization library for certain features.
+    + [Armadillo home page](https://arma.sourceforge.net/)
 
 To see QIClib's GitHub goto: [https://github.com/titaschanda/QIClib](https://github.com/titaschanda/QIClib)
 
@@ -39,4 +49,12 @@ To see QIClib's GitHub goto: [https://github.com/titaschanda/QIClib](https://git
   url = {https://link.aps.org/doi/10.1103/PhysRevA.106.052425}
 }
 ```
+
+## Accessing the paper
+
+A [pdf version as found on arXiv](https://arxiv.org/abs/2206.09199) is uploaded to the repository.
+
++ `docs/arXiv-Can a finite range Hamiltonian mimic quantum correlation of a long-range Hamiltonian.pdf`
+
+
 
