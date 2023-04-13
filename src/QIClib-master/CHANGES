@@ -1,0 +1,42 @@
+Version 0.0.1 - November 16, 2015
+    - First beta version, initial public release
+
+Version 0.0.2 - November 18, 2015
+    - Added absm
+    - Added schatten norm
+	
+Version 0.0.3 - November 21, 2015
+    - Added dsum
+    - bug-fix in tensor
+
+Version 0.0.4 - April 20, 2016
+    - added std_to_HS
+    - added HS_to_std
+    - added measure
+    - _precision::eps is now a class
+    - is_H is now is_Hermitian, is_U is now is_Unitary
+    - faster is_equal, is_Hermitian, is_Unitary, is_pure, is_valid_state
+    - added purify
+    - added random
+    - bug-fix in discord type functions
+    - parallel support for measure
+    - added number theoretic functions
+    - added is_diagonalizable
+
+Version 1.0 - March 20, 2017
+    - bug fix in tsallis_prob
+    - added gram_schmidt
+    - added dense_to_sparse, sparse_to_dense
+    - added discord_space, deficit_space
+    - added is_Normal
+    - added rel_entropy, rel_entropy_prob
+	- added coherence measures, l1 norm coherence and relative entropy of coherence
+	- added schmidt_full
+	- added macro features to fine tune the library behavior
+	- std::runtime_error exception for eig_sym/eig_gen decomposition
+	- std::runtime_error exception for qr decomposition
+	- added is_primepower
+	- added randPerm
+	- added make_ctrl
+	- default template parameter of mket(), mproj() is now double
+	- optional multi-threaded algorithm for TrX, Tx, sysperm, apply, apply_ctrl, make_ctrl, measure, measure_comp
